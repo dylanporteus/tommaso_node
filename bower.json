@@ -1,0 +1,21 @@
+{
+  "name": "tommaso_node",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Dylan Porteus <dylanporteus@aol.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/dylanporteus/tommaso_translate",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.1"
+  }
+}
