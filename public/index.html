@@ -1,26 +1,37 @@
 <!DOCTYPE html>
 <html>
   <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Francesca</title>
-	<link rel="stylesheet" href="stylesheets/style.css">
- </head>
-<body>
- <h2>Francesca</h2>
-
-  <p id="result-ita"></p>  
-<audio controls>
- <source src="horse.mp3" type="audio/mpeg">
-</audio>
-
-  <p class="prompt">Please enter a word or phrase to be translated.</p>
-   <form class="form-translate">
-     <input type="text" class="form-input"><br>
-     <button type="submit" class="form-button">Translate!</button>
-   </form>
+	  <meta charset="utf-8">
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	  <title>Francesca</title>
+	  <link rel="stylesheet" href="./stylesheets/style.css">
+  </head>
+ <body>
+  
+  <div class="fran-container">
+    <img src="./img/francesca.png">
+  </div><br />
+ 
+  <div class="fran-header">
+   <h1>Francesca</h1>
+  </div>
+   
+  <div class="trans-text"> 
+   <p id="result-ita"></p>
+  </div>   
+   
+ <div class="prompt-container">
+   <h2 class="prompt">Please enter a word or phrase below to be translated.</h2>
+ </div>
+   <div class="input-container">
+    <form class="form-translate">
+      <input type="text" class="form-input"><br>
+      <button type="submit" class="form-button">Translate!</button>
+    </form>
+   </div>
+ 
 
   <script src="lib/jquery/dist/jquery.min.js"></script>
   <script src="js/text-translation.js"></script>
-</body>
+ </body>
 </html>
