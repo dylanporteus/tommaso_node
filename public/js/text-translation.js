@@ -5,7 +5,7 @@
 	$('.form-button').click(function(){
         var engInput = $('.form-input').val(); 
         $('audio').length && $('audio').remove();
-        $.getJSON(`/translate?text=${engInput}`, (data) => {
+        $.getJSON(`/translate?text=${engInput}`, (data) => {  //This is a shorthand for an ajax call.
         	let translation = data.translation;
         	$('#result-ita').text(translation);
         	let audio_element = $(
