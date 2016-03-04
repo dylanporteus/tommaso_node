@@ -86,6 +86,18 @@ h2{
 	box-shadow: 2px 2px 2px 1px rgba(36,175,205,0.50);
 }
 
+.form-button:hover{
+	color: white;
+	background: lightpink;
+}
+
+.form-button:active{
+	opacity: 1;
+   -webkit-box-shadow: 0px 0px 20px rgba(255,255,255,1);
+   -moz-box-shadow: 0px 0px 20px rgba(255,255,255,1);
+   box-shadow: 0px 0px 20px rgba(255,255,255,1);
+}
+
 #result-ita{
 	color: black;
 	font-size: 30px;
